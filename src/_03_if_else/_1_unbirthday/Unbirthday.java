@@ -1,9 +1,16 @@
 package _03_if_else._1_unbirthday;
 
-public class Unbirthday {
+import javax.swing.JOptionPane;
 
-	public Unbirthday() {
-		// TODO Auto-generated constructor stub
+public class Unbirthday {
+public static void main(String[] args) {
+	String yesorno = JOptionPane.showInputDialog("Is today your birthday? Yes or no?");
+ if (yesorno.equalsIgnoreCase("yes")) {
+	 JOptionPane.showMessageDialog(null,"Congradulations!");
+ }
+ if (yesorno.equalsIgnoreCase("no")) {
 	}
+JOptionPane.showMessageDialog(null,"Oh,thats too bad, well comtinue what you were doing.");
+}
 
 }
