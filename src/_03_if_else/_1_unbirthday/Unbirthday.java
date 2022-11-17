@@ -10,7 +10,7 @@ public static void main(String[] args) {
  }
  if (yesorno.equalsIgnoreCase("no")) {
 	}
-JOptionPane.showMessageDialog(null,"Oh,thats too bad, well comtinue what you were doing.");
+JOptionPane.showMessageDialog(null,"Oh,that's too bad, well, continue what you were doing.");
 }
 
 }
